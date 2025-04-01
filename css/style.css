@@ -1,0 +1,132 @@
+body{
+    background-image: url('../img/Wallpaper.webp');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+}
+header{
+    background: rgba(93, 63, 211, 0.9); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+}
+section, article, table {
+    background: rgba(239, 239, 239, 0.664); 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    width: 90%;
+    max-width: 800px;
+    margin: 20px auto;
+}
+img {
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+    max-width: 100%;
+    height: auto;
+}
+h1{
+    color: #741111;
+    font-size: 24px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+h2{
+    font-size: 18px;
+    text-align: left;
+}
+h3{
+    font-size: 16px;
+    text-align: left;
+}
+td{
+    font-size: 12px;
+}
+p{
+    font-size: 12px;
+}
+footer{
+    background-color: rgb(215, 189, 255);
+    font-size: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    text-align: center;
+    margin-top: 20px;
+}
+form {
+    background: #5D3FD3; 
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+    width: 320px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+label {
+    font-weight: bold;
+    color: #FFFFFF;
+}
+
+input, select, textarea {
+    padding: 10px;
+    border: 1px solid #BFA2DB;
+    border-radius: 5px;
+    font-size: 14px;
+    background: #F5F5F5;
+    color: #2C2C2C;
+}
+
+button {
+    background: #7E57C2;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #D81B60; 
+}
+a{
+color: #480075; 
+    text-decoration: none; 
+    font-weight: bold;
+    transition: color 0.3s ease-in-out;
+}
+
+.Tabla{
+    width: 400px;
+    height: 200px;
+}
+.GeneroIMG{
+    width: 100%;
+    height: 450px;
+}
+.texto{
+    justify-content: center;
+    padding: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: rgb(211, 225, 239);
+}
+.Links{
+    color: #ffffff;
+}
+
